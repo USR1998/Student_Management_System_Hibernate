@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="border" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <top>
+      <VBox prefHeight="85.0" prefWidth="600.0" style="-fx-background-color: Gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnCourses" mnemonicParsing="false" onAction="#ClickCourses" prefHeight="38.0" prefWidth="103.0" text="Courses">
+               <VBox.margin>
+                  <Insets left="361.0" top="26.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDetails" mnemonicParsing="false" onAction="#ClickDetails" prefHeight="38.0" prefWidth="103.0" text="Details">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="485.0" top="-39.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnStudents" mnemonicParsing="false" onAction="#ClickStudents" prefHeight="38.0" prefWidth="103.0" text="Students">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="236.0" top="-38.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
